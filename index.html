@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人介绍 | 网页开发者</title>
+    <title>自我介绍</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
@@ -36,7 +36,6 @@
             padding: 0 20px;
         }
 
-        /* 导航栏样式 */
         header {
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: white;
@@ -105,7 +104,6 @@
             font-size: 24px;
         }
 
-        /* 英雄区域样式 */
         .hero {
             padding: 160px 0 100px;
             background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="white"/><path d="M0 50 L100 50 M50 0 L50 100" stroke="%234a6cf7" stroke-opacity="0.1" stroke-width="1"/></svg>');
@@ -153,7 +151,6 @@
             box-shadow: 0 8px 20px rgba(74, 108, 247, 0.4);
         }
 
-        /* 关于我区域样式 */
         .about {
             padding: 100px 0;
             background-color: white;
@@ -215,7 +212,6 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
-        /* 技能区域样式 */
         .skills {
             padding: 100px 0;
             background-color: #f5f8ff;
@@ -273,7 +269,6 @@
             transition: width 1.5s ease;
         }
 
-        /* 联系区域样式 */
         .contact {
             padding: 100px 0;
             background-color: white;
@@ -363,7 +358,6 @@
             resize: vertical;
         }
 
-        /* 页脚样式 */
         footer {
             background: var(--dark-color);
             color: white;
@@ -457,7 +451,6 @@
             font-size: 0.9rem;
         }
 
-        /* 响应式设计 */
         @media (max-width: 992px) {
             .about-content {
                 flex-direction: column;
@@ -502,13 +495,12 @@
     </style>
 </head>
 <body>
-    <!-- 导航栏 -->
     <header>
         <div class="container">
             <nav>
                 <div class="logo">
                     <i class="fas fa-code"></i>
-                    <span>DevPortfolio</span>
+                    <span>简介</span>
                 </div>
                 <ul class="nav-links">
                     <li><a href="#home">首页</a></li>
@@ -523,18 +515,16 @@
         </div>
     </header>
 
-    <!-- 英雄区域 -->
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <h1>你好，我是<span class="highlight">张三</span></h1>
-                <p>一名全栈开发工程师，专注于创建美观、功能强大且用户友好的Web应用程序。</p>
+                <h1>你好，我是<span class="highlight">孟宣羽</span></h1>
+                <p>一名大三计算机专业学生，喜好编写程序，热爱体育运动。</p>
                 <a href="#contact" class="btn">联系我</a>
             </div>
         </div>
     </section>
 
-    <!-- 关于我 -->
     <section class="about" id="about">
         <div class="container">
             <div class="section-title">
@@ -542,10 +532,9 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>一名充满激情的开发者</h3>
-                    <p>我是一名全栈开发工程师，拥有5年以上的Web开发经验。我热爱构建从概念到部署的完整Web应用程序。</p>
-                    <p>我的技术栈包括JavaScript、React、Node.js、Python和多种数据库技术。我擅长创建响应式、可访问且高性能的网站。</p>
-                    <p>在业余时间，我喜欢学习新技术、贡献开源项目以及撰写技术博客分享知识。</p>
+                    <h3>一名充满激情的大学生</h3>
+                    <p>我是一名来自于河北唐山的20岁有志青年。</p>
+                    <p>在空余时间，我喜欢学习新技术、编写个人代码以及进行体育锻炼。</p>
                     <a href="#contact" class="btn">联系我</a>
                 </div>
                 <div class="about-image">
@@ -555,7 +544,6 @@
         </div>
     </section>
 
-    <!-- 技能 -->
     <section class="skills" id="skills">
         <div class="container">
             <div class="section-title">
@@ -573,7 +561,7 @@
                 <div class="skill-card">
                     <i class="fas fa-server"></i>
                     <h3>后端开发</h3>
-                    <p>使用Node.js、Python和PHP开发服务器端应用程序</p>
+                    <p>使用Node.js和Python开发服务器端应用程序</p>
                     <div class="skill-bar">
                         <div class="skill-progress" data-width="85%"></div>
                     </div>
@@ -589,14 +577,14 @@
                 <div class="skill-card">
                     <i class="fas fa-database"></i>
                     <h3>数据库管理</h3>
-                    <p>设计和管理SQL与NoSQL数据库系统</p>
+                    <p>设计和管理SQL与MySQL数据库系统</p>
                     <div class="skill-bar">
                         <div class="skill-progress" data-width="80%"></div>
                     </div>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-figma"></i>
-                    <h3>UI/UX设计</h3>
+                    <h3>UI设计</h3>
                     <p>创建直观且美观的用户界面和体验</p>
                     <div class="skill-bar">
                         <div class="skill-progress" data-width="75%"></div>
@@ -614,7 +602,6 @@
         </div>
     </section>
 
-    <!-- 联系 -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-title">
@@ -626,21 +613,21 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>位置</h4>
-                            <p>北京市海淀区</p>
+                            <p>河北省迁安市</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>邮箱</h4>
-                            <p>zhangsan@example.com</p>
+                            <p>2843696026.@qq.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>电话</h4>
-                            <p>+86 138 0013 8000</p>
+                            <p>+86 13387342575</p>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -662,11 +649,11 @@
                             <input type="email" id="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="subject">主题</label>
+                            <label for="subject">事件</label>
                             <input type="text" id="subject" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">消息</label>
+                            <label for="message">详细消息</label>
                             <textarea id="message" required></textarea>
                         </div>
                         <button type="submit" class="btn">发送消息</button>
@@ -676,16 +663,15 @@
         </div>
     </section>
 
-    <!-- 页脚 -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="footer-about">
                     <div class="footer-logo">
                         <i class="fas fa-code"></i>
-                        <span>DevPortfolio</span>
+                        <span>简介</span>
                     </div>
-                    <p>创建美观、功能强大且用户友好的Web应用程序。</p>
+                    <p>自我介绍</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-github"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -708,19 +694,16 @@
                         <li><a href="#">网页设计</a></li>
                         <li><a href="#">前端开发</a></li>
                         <li><a href="#">后端开发</a></li>
-                        <li><a href="#">全栈开发</a></li>
-                        <li><a href="#">UI/UX设计</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 DevPortfolio. 保留所有权利。</p>
+                <p>&copy; 2025 简介. 保留所有权利。</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // 导航菜单切换
         const hamburger = document.querySelector('.hamburger');
         const navLinks = document.querySelector('.nav-links');
 
@@ -730,7 +713,6 @@
                 '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
         });
 
-        // 平滑滚动
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -739,7 +721,6 @@
                 
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    // 关闭移动端菜单
                     if (navLinks.classList.contains('active')) {
                         navLinks.classList.remove('active');
                         hamburger.innerHTML = '<i class="fas fa-bars"></i>';
@@ -753,7 +734,6 @@
             });
         });
 
-        // 技能进度条动画
         function animateSkillBars() {
             const skillBars = document.querySelectorAll('.skill-progress');
             skillBars.forEach(bar => {
@@ -762,7 +742,6 @@
             });
         }
 
-        // 表单提交
         const contactForm = document.getElementById('contactForm');
         if (contactForm) {
             contactForm.addEventListener('submit', function(e) {
@@ -772,17 +751,14 @@
             });
         }
 
-        // 页面加载时初始化
         window.addEventListener('load', function() {
             animateSkillBars();
         });
 
-        // 滚动时显示元素动画
         window.addEventListener('scroll', function() {
             const scrollPosition = window.scrollY;
             const header = document.querySelector('header');
-            
-            // 头部背景变化
+
             if (scrollPosition > 100) {
                 header.style.background = 'var(--dark-color)';
                 header.style.boxShadow = '0 2px 15px rgba(0, 0, 0, 0.1)';
